@@ -37,6 +37,6 @@ Dataset for this problem is already built in Scikit-Learn library and can be loa
     :Missing Attribute Values: None
 
 ## Approach
-In this project, I have used LinearRegression, Ridge Regression, Lasso Regression, KNeighborsRegressor, DecisionTreeRegressor, and SVR to train the model and evaluated them using cross-validation technique and mean_squared_error metric. I have also used different ensemble methods to like RandomForest, GradientBoosting, AdaBoost for the better generalization of the model. Finally I have choosed RandomForest as my final model as it gives us minimum mean_squared_error.
+In this project, I have used LinearRegression, Ridge Regression, Lasso Regression, KNeighborsRegressor, DecisionTreeRegressor, and SVR to train the model and evaluated them using cross-validation technique and mean_squared_error metric. I have also used different ensemble methods like RandomForest, GradientBoosting, AdaBoost for the better generalization of the model. Finally I have choosed RandomForest as my final model as it gives us minimum mean_squared_error.
 
 The complete code with proper comments can be found in the Jupyter Notebook in this repository.
