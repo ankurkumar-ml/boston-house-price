@@ -11,3 +11,32 @@ Predict boston house prices using regression techniques.
 
 ## Dataset
 Dataset for this problem is already built in Scikit-Learn library and can be loaded as i have done in [Jupyter Notebook](https://github.com/ankurkumar-ml/boston-house-price/blob/master/Untitled.ipynb).
+
+**Data Set Characteristics:**
+
+:Number of Instances: 506 
+
+    :Number of Attributes: 13 numeric/categorical predictive. Median Value (attribute 14) is usually the target.
+
+    :Attribute Information (in order):
+        - CRIM     per capita crime rate by town
+        - ZN       proportion of residential land zoned for lots over 25,000 sq.ft.
+        - INDUS    proportion of non-retail business acres per town
+        - CHAS     Charles River dummy variable (= 1 if tract bounds river; 0 otherwise)
+        - NOX      nitric oxides concentration (parts per 10 million)
+        - RM       average number of rooms per dwelling
+        - AGE      proportion of owner-occupied units built prior to 1940
+        - DIS      weighted distances to five Boston employment centres
+        - RAD      index of accessibility to radial highways
+        - TAX      full-value property-tax rate per $10,000
+        - PTRATIO  pupil-teacher ratio by town
+        - B        1000(Bk - 0.63)^2 where Bk is the proportion of blacks by town
+        - LSTAT    % lower status of the population
+        - MEDV     Median value of owner-occupied homes in $1000's
+
+    :Missing Attribute Values: None
+
+## Approach
+In this project, I have used LinearRegression, Ridge Regression, Lasso Regression, KNeighborsRegressor, DecisionTreeRegressor, and SVR to train the model and evaluated them using cross-validation technique and mean_squared_error metric. I have also used different ensemble methods to like RandomForest, GradientBoosting, AdaBoost for the better generalization of the model. Finally I have choosed RandomForest as my final model as it gives us minimum mean_squared_error.
+
+The complete code with proper comments can be found in the Jupyter Notebook in this repository.
